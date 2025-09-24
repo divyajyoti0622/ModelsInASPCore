@@ -21,6 +21,7 @@ namespace ModelsInASPCore.Controllers
              return _studentRepository.getAllStudents();
         }
 
+        // get by name
         public StudentModel getByName(string name)
         {
             return _studentRepository.getStudentByName(name);
